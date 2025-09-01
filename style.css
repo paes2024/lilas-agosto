@@ -1,0 +1,91 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e cores principais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #8e44ad; /* Roxo característico do Agosto Lilás */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Imagem principal (seção hero) */
+.hero {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Seção de conteúdo */
+.content {
+    background-color: white;
+    padding: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #8e44ad;
+}
+
+.content ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #8e44ad;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
